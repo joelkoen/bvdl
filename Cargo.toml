@@ -3,6 +3,14 @@ name = "bvdl"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["Joel Koen <mail@joelkoen.com>"]
+license = "MIT"
+description = "Scrape product information from Bazaarvoice"
+readme = "README.md"
+repository = "https://github.com/joelkoen/bvdl"
+keywords = ["scraper"]
+categories = ["command-line-utilities"]
+
 [dependencies]
 anyhow = "1.0.81"
 clap = { version = "4.5.4", features = ["derive"] }
